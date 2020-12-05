@@ -1,0 +1,103 @@
+
+h1 {
+  color: #abb6db;
+  font-size: 48px
+  font-family: font-family: 'Roboto Mono', monospace;
+
+}
+
+html{
+  cursor: url(unicorn.png), auto;
+}
+a:hover{
+  cursor: url(unicorn.png), auto;
+}
+body{
+  background-color: black;
+  font-family: 'Roboto Mono', monospace;
+}
+
+h2{
+  color: #abb6db;
+  font-size: 25px;
+  font-family: font-family: 'Roboto Mono', monospace;
+}
+
+a{
+  color:white;
+
+}
+
+
+a:visited {
+  color:white;
+}
+#word{
+  background-color: black;
+  height:200px;
+  width:200px;
+  font-size: 20px;
+  position: absolute;
+  top: 300px;
+  left: 1250px;
+  transition-duration: 3s;
+
+}
+
+#word:hover {
+  background-color: #ed3939;
+  opacity: .5;
+}
+
+
+#home {
+  color: #ff4747;
+
+}
+
+#video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+#lava{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.5
+}
+#content{
+  position:absolute;
+  top: 50%
+  transform: translateY(-50%);
+  color: white;
+  width: 100%
+}
+
+@keyframes bounce{
+  0%{
+    top:0px;
+  }
+  100%{
+    top:800px;
+  }
+}
+#flag{
+  animation-name: bounce;
+  animation-duration: 3s;
+
+}
+#moon{
+
+}
+
+h4{
+  color:#ff4747;
+}
+h3{
+  color: #abb6db;
+  font-size: 35px;
